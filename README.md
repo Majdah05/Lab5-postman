@@ -103,15 +103,14 @@ git status
 git branch
 ```
 
-GitHub publication is pending a destination repository and authentication. Create an **empty** GitHub repository named `Lab5-Postman` without adding a README, license or gitignore. Then, replacing `YOUR_USERNAME`:
+The project is published at [Majdah05/Lab5-postman](https://github.com/Majdah05/Lab5-postman). Both `main` and `api` have been pushed, and `origin` points to this repository. To push subsequent local commits:
 
 ```powershell
-git remote add origin https://github.com/YOUR_USERNAME/Lab5-Postman.git
 git push -u origin main
 git push -u origin api
 ```
 
-Complete Git's browser sign-in if prompted. Never put passwords or access tokens in the project. If `origin` already exists, inspect `git remote -v` before changing it. The database milestone was committed locally; it was not pushed before API work because no remote was available. Pushing now preserves that database commit and branch history.
+Complete Git's browser sign-in if prompted. Never put passwords or access tokens in the project. Inspect `git remote -v` before changing the remote. The database milestone was committed locally; it was not pushed before API work because no remote was available. The subsequent push preserved that database commit and branch history.
 
 ## Submission and demonstration
 
